@@ -1,0 +1,581 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1237; Version 2009; 64bit' Language: 'zh' Physical Memory: 16299 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unity/DD/Unity_ASIA_LittleDinosaur_2021917/LittleDinosaur
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+13443
+Successfully changed project path to: D:/unity/DD/Unity_ASIA_LittleDinosaur_2021917/LittleDinosaur
+D:/unity/DD/Unity_ASIA_LittleDinosaur_2021917/LittleDinosaur
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 33.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/DD/Unity_ASIA_LittleDinosaur_2021917/LittleDinosaur/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   
+    VRAM:     2988 MB
+    Driver:   30.0.14.7111
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002146 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 33.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.576 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1576ms)
+		BeginReloadAssembly (45ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (340ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (127ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (132ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001920 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 33.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.896 seconds
+Domain Reload Profiling:
+	ReloadAssembly (896ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (724ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (270ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (33ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2090 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 93.1 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2529.
+Total: 2.711800 ms (FindLiveObjects: 0.193600 ms CreateObjectMapping: 0.060300 ms MarkObjects: 2.404200 ms  DeleteObjects: 0.052900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/調色盤/地形.prefab
+  artifactKey: Guid(d8d18b6b646a7a9498c0ff9c7d69615b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/地形.prefab using Guid(d8d18b6b646a7a9498c0ff9c7d69615b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3ed3bf86aa2f34d1d2278c5b615dbb') in 0.084103 seconds 
+  Import took 0.086856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.457690 seconds.
+  path: Assets/場景
+  artifactKey: Guid(84ab4cc49a9fe8245a2de5f7e93a981f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景 using Guid(84ab4cc49a9fe8245a2de5f7e93a981f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd583453bf6235e049b94577ab73f247') in 0.007399 seconds 
+  Import took 0.010613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.907128 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture
+  artifactKey: Guid(4fb7661537e28884697bca33184bdaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture using Guid(4fb7661537e28884697bca33184bdaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49218b2e2a296db1cad4179661b2a9fb') in 0.005324 seconds 
+  Import took 0.009338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.989922 seconds.
+  path: Assets/調色盤/TX Tileset Ground_0.asset
+  artifactKey: Guid(11abcd58d805ce443a8c97da72d803bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_0.asset using Guid(11abcd58d805ce443a8c97da72d803bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943c789a015d96c05d9388361fbc00f7') in 0.031114 seconds 
+  Import took 0.034855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/調色盤/TX Tileset Ground_2.asset
+  artifactKey: Guid(449464ec278937c47b5fb9dc2b739921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_2.asset using Guid(449464ec278937c47b5fb9dc2b739921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f600fdda15d9e430a79301ce161ea64') in 0.012789 seconds 
+  Import took 0.016127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/調色盤/地形.prefab
+  artifactKey: Guid(d8d18b6b646a7a9498c0ff9c7d69615b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/地形.prefab using Guid(d8d18b6b646a7a9498c0ff9c7d69615b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b6545d5849a5fbd321d84714670250') in 0.016527 seconds 
+  Import took 0.020258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/調色盤/TX Tileset Ground_1.asset
+  artifactKey: Guid(cb1a6d5d87c85774aabdc002621652e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_1.asset using Guid(cb1a6d5d87c85774aabdc002621652e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ca99349481ddf12ff85c425a01c64d') in 0.009948 seconds 
+  Import took 0.013791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/調色盤/TX Tileset Ground_8.asset
+  artifactKey: Guid(8d28d99d9fbcefd4abe17b5fc9ba87f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_8.asset using Guid(8d28d99d9fbcefd4abe17b5fc9ba87f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1137dc011cc857a29113dc83c86b37') in 0.009067 seconds 
+  Import took 0.012184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/調色盤/TX Tileset Ground_9.asset
+  artifactKey: Guid(c4a87dd5afb1b684ebb2446e12721968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_9.asset using Guid(c4a87dd5afb1b684ebb2446e12721968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c432cac190b97ed9d88dde22ec09b4d') in 0.008944 seconds 
+  Import took 0.011643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/調色盤/TX Tileset Ground_7.asset
+  artifactKey: Guid(06d126100708c224d955a09aba4661f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_7.asset using Guid(06d126100708c224d955a09aba4661f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25eeb255a8a541c6e8fddaca00dd53cd') in 0.008269 seconds 
+  Import took 0.011395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/調色盤/TX Tileset Ground_6.asset
+  artifactKey: Guid(05d516649745eea4d938ba4f0d1d13f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_6.asset using Guid(05d516649745eea4d938ba4f0d1d13f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a59d050be0636dd715d7b7ecf57fc6e') in 0.008285 seconds 
+  Import took 0.011751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 190.768614 seconds.
+  path: Assets/調色盤/地形.prefab
+  artifactKey: Guid(d8d18b6b646a7a9498c0ff9c7d69615b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/地形.prefab using Guid(d8d18b6b646a7a9498c0ff9c7d69615b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871f45156a2670d730d00a36c30fa407') in 0.010875 seconds 
+  Import took 0.015161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.832045 seconds.
+  path: Assets/地形.prefab
+  artifactKey: Guid(d15b7271c5651ec449d2ec4e8a216584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/地形.prefab using Guid(d15b7271c5651ec449d2ec4e8a216584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a096bd2565fa10557d9341baab0b817') in 0.008535 seconds 
+  Import took 0.011455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.269247 seconds.
+  path: Assets/調色盤/地形.prefab
+  artifactKey: Guid(d8d18b6b646a7a9498c0ff9c7d69615b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/地形.prefab using Guid(d8d18b6b646a7a9498c0ff9c7d69615b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd130561fe68ab7d6503a457f316437f') in 0.008774 seconds 
+  Import took 0.011693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 230.177056 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_3.asset
+  artifactKey: Guid(b4d4c3848410ef543bba90a21f10edc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground_3.asset using Guid(b4d4c3848410ef543bba90a21f10edc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4849b6fb309eb81e92362b9b255cd1') in 0.008744 seconds 
+  Import took 0.012103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 562.021251 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png
+  artifactKey: Guid(bb35af95735851440927571ef230221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png using Guid(bb35af95735851440927571ef230221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714a80e97524718d89e2267f84f22f83') in 0.085350 seconds 
+  Import took 0.089165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.904188 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png
+  artifactKey: Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png using Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf641204295750a2339eba5d3da83ca') in 0.079834 seconds 
+  Import took 0.082856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.358136 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06fb06aa48d2b985390befcbed5472f') in 0.294847 seconds 
+  Import took 0.298401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 653.037567 seconds.
+  path: Assets/調色盤/TX Tileset Ground_14.asset
+  artifactKey: Guid(82cf45342dc1cc6478837653b1f28c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_14.asset using Guid(82cf45342dc1cc6478837653b1f28c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365f17e08904db4b84f44e802c08da32') in 0.011245 seconds 
+  Import took 0.015476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/調色盤/TX Tileset Ground_19.asset
+  artifactKey: Guid(6ef8b1581acc8494fb4d2988b08b474c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_19.asset using Guid(6ef8b1581acc8494fb4d2988b08b474c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1bf55980e871f04bf580a007549b3d') in 0.010106 seconds 
+  Import took 0.013370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/調色盤/TX Village Props_104.asset
+  artifactKey: Guid(efe9177ecc0f7c74b9ca5c6c4ab9bc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Village Props_104.asset using Guid(efe9177ecc0f7c74b9ca5c6c4ab9bc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e5b770000f19031eb5959da91d7947') in 0.009199 seconds 
+  Import took 0.012192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/調色盤/TX Tileset Ground_18.asset
+  artifactKey: Guid(ab4f5256f9277914dad2efbf36b21831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_18.asset using Guid(ab4f5256f9277914dad2efbf36b21831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3acc75ef5e2a318618ba1bad582d23d9') in 0.009418 seconds 
+  Import took 0.012477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/調色盤/地形.prefab
+  artifactKey: Guid(d8d18b6b646a7a9498c0ff9c7d69615b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/地形.prefab using Guid(d8d18b6b646a7a9498c0ff9c7d69615b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da63c3fac34de17091e2a7262ecbc898') in 0.013370 seconds 
+  Import took 0.016751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/調色盤/TX Village Props_106.asset
+  artifactKey: Guid(3ae969593b40f5a4d9e209e5097d0e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Village Props_106.asset using Guid(3ae969593b40f5a4d9e209e5097d0e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efde0ccf040c632fd8fa114f2a4e4881') in 0.012755 seconds 
+  Import took 0.015506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/調色盤/TX Tileset Ground_20.asset
+  artifactKey: Guid(93b0fc5d9f74b874f8f8d3a5da6c4cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_20.asset using Guid(93b0fc5d9f74b874f8f8d3a5da6c4cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d7797aec36c35e700350cdc5bd7ad0') in 0.013737 seconds 
+  Import took 0.016418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/調色盤/小裝飾.prefab
+  artifactKey: Guid(4324100bc708fa84db89c56a56c5353d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/小裝飾.prefab using Guid(4324100bc708fa84db89c56a56c5353d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad426836ccdec5901aa133548afa733a') in 0.015135 seconds 
+  Import took 0.017997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/調色盤/TX Village Props_105.asset
+  artifactKey: Guid(52915a6befd9d804988f045668247541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Village Props_105.asset using Guid(52915a6befd9d804988f045668247541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0fe3bc097dad022fff2b313f3ee059') in 0.012536 seconds 
+  Import took 0.015196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.021247 seconds.
+  path: Assets/調色盤/TX Tileset Ground_12.asset
+  artifactKey: Guid(958d7f20661049b43bbf9644546e3a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_12.asset using Guid(958d7f20661049b43bbf9644546e3a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a86a4d1fcfc9bae91aa946032a64b72') in 0.007465 seconds 
+  Import took 0.010689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/調色盤/TX Tileset Ground_13.asset
+  artifactKey: Guid(27587e7ad515a7347b7019a7fe0485f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_13.asset using Guid(27587e7ad515a7347b7019a7fe0485f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a00547cbe9b72e32a42d1aff1b57fb') in 0.008853 seconds 
+  Import took 0.011885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.743758 seconds.
+  path: Assets/調色盤/小裝飾.prefab
+  artifactKey: Guid(4324100bc708fa84db89c56a56c5353d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/小裝飾.prefab using Guid(4324100bc708fa84db89c56a56c5353d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa9f810e77f49c12725dad45145b39b') in 0.009779 seconds 
+  Import took 0.012887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.699505 seconds.
+  path: Assets/調色盤/TX Village Props_116.asset
+  artifactKey: Guid(1fa455804fd88c04dac84d696725d4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Village Props_116.asset using Guid(1fa455804fd88c04dac84d696725d4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe51bbd9fb762703ce2307891955bd1e') in 0.010690 seconds 
+  Import took 0.015073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/調色盤/TX Village Props_120.asset
+  artifactKey: Guid(7b7086759107f6549826f8fb9337b773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Village Props_120.asset using Guid(7b7086759107f6549826f8fb9337b773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a282f25339b9af6f86793e125ce6f07e') in 0.013218 seconds 
+  Import took 0.016551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/調色盤/TX Village Props_118.asset
+  artifactKey: Guid(71c905e9f53a4ad40ab90b52808e72b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Village Props_118.asset using Guid(71c905e9f53a4ad40ab90b52808e72b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e381a6146fde071180fd26e20442e365') in 0.011554 seconds 
+  Import took 0.014630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/調色盤/TX Village Props_119.asset
+  artifactKey: Guid(2fba5b2413643f349a9c1d109ecaf1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Village Props_119.asset using Guid(2fba5b2413643f349a9c1d109ecaf1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dcf100ce116ec207d9b5381c853f446') in 0.008476 seconds 
+  Import took 0.011191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/調色盤/TX Village Props_126.asset
+  artifactKey: Guid(19bbb1790f3387d41bb93e341517974c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Village Props_126.asset using Guid(19bbb1790f3387d41bb93e341517974c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a71972dce35eea3c9459770ce4af74c') in 0.009391 seconds 
+  Import took 0.012961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/調色盤/TX Village Props_117.asset
+  artifactKey: Guid(a2f302f93ef42674c905f695a9e9a299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Village Props_117.asset using Guid(a2f302f93ef42674c905f695a9e9a299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0532d163e273e1fa39b72501e56f6c97') in 0.008294 seconds 
+  Import took 0.011240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/調色盤/小裝飾.prefab
+  artifactKey: Guid(4324100bc708fa84db89c56a56c5353d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/小裝飾.prefab using Guid(4324100bc708fa84db89c56a56c5353d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74f12e5bfc05283de51ce6aa48a7c50') in 0.015791 seconds 
+  Import took 0.019173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/調色盤/TX Village Props_123.asset
+  artifactKey: Guid(149c3f926bc7c464bbe7707d06b4fb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Village Props_123.asset using Guid(149c3f926bc7c464bbe7707d06b4fb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f076b05a310890087e46297419c7bd2d') in 0.008179 seconds 
+  Import took 0.010943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.797567 seconds.
+  path: Assets/調色盤/TX Village Props_114.asset
+  artifactKey: Guid(eb82c09db2817f24cb48e2da147c5ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Village Props_114.asset using Guid(eb82c09db2817f24cb48e2da147c5ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a28af0fc470873a698f74dcd9459bb7') in 0.008361 seconds 
+  Import took 0.011418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/調色盤/TX Village Props_115.asset
+  artifactKey: Guid(2bf96318f0a65cc41b5bad7588c9372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Village Props_115.asset using Guid(2bf96318f0a65cc41b5bad7588c9372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2141848681abe0cc9676cbeb6c97157') in 0.007749 seconds 
+  Import took 0.010728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.039300 seconds.
+  path: Assets/調色盤/TX Village Props_112.asset
+  artifactKey: Guid(24b8dfaa1eead9849be53947bde8dfbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Village Props_112.asset using Guid(24b8dfaa1eead9849be53947bde8dfbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf04731ecff6cdf137a10945af61a7c') in 0.009082 seconds 
+  Import took 0.012027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/調色盤/TX Village Props_113.asset
+  artifactKey: Guid(fb615b29311057742850e0f8526db6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Village Props_113.asset using Guid(fb615b29311057742850e0f8526db6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2deeb368ab37f90428c4e7862c2c6dc0') in 0.008028 seconds 
+  Import took 0.010832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.503004 seconds.
+  path: Assets/調色盤/TX Village Props_108.asset
+  artifactKey: Guid(124fc5c0ed9eaa542b0cfebe707e3664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Village Props_108.asset using Guid(124fc5c0ed9eaa542b0cfebe707e3664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab6bdb0b0eaa7c227ec0c14df3e3ccf') in 0.013224 seconds 
+  Import took 0.017708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/調色盤/TX Village Props_109.asset
+  artifactKey: Guid(b8fa49312eaf2124a959c0adea248f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Village Props_109.asset using Guid(b8fa49312eaf2124a959c0adea248f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49dc1a48c926f37e1f53b3d2e36f120b') in 0.010528 seconds 
+  Import took 0.013959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/調色盤/TX Village Props_107.asset
+  artifactKey: Guid(bad31a1ebd30578489dc7ea68d9a6867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Village Props_107.asset using Guid(bad31a1ebd30578489dc7ea68d9a6867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c772906d0a65d3b81b5b82638c4ceb98') in 0.009598 seconds 
+  Import took 0.012776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.608794 seconds.
+  path: Assets/調色盤/小裝飾.prefab
+  artifactKey: Guid(4324100bc708fa84db89c56a56c5353d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/小裝飾.prefab using Guid(4324100bc708fa84db89c56a56c5353d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081e4d48710b7685cf50182bc4ef0b06') in 0.010018 seconds 
+  Import took 0.013172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 658.298297 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021ec501f96e745d7ff0c2924192b1f6') in 0.239371 seconds 
+  Import took 0.243273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.894129 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982e03a5e56be1aa074d5c4f83da7270') in 0.230043 seconds 
+  Import took 0.233660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.667436 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcce20e7322032f9db5a76f4bb70d766') in 0.216815 seconds 
+  Import took 0.220187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.076686 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c13cb456d92881bd8519f717ac88d0') in 0.227587 seconds 
+  Import took 0.231053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.468281 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b19a25fd39188f202925e773ecef73') in 0.221618 seconds 
+  Import took 0.225547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.334671 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1ebfd743473b3c657c76364105acbe') in 0.228988 seconds 
+  Import took 0.232442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.340359 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79b285600071898ecd02a7b0d32fdf0') in 0.225360 seconds 
+  Import took 0.228686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.745175 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45458a31c4feec1b2042f9e175d5f2cb') in 0.224387 seconds 
+  Import took 0.227781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.866303 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea006e1a5da9e8f537ee6d93f16aa96') in 0.228687 seconds 
+  Import took 0.232141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.776233 seconds.
+  path: Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d779348671ad4d94a062ad539582cc8') in 0.230678 seconds 
+  Import took 0.234107 seconds .
+
