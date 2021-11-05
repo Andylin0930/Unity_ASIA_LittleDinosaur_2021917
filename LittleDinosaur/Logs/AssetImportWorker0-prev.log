@@ -15,11 +15,11 @@ D:/unity/DD/Unity_ASIA_LittleDinosaur_2021917/LittleDinosaur
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-7612
+8064
 Successfully changed project path to: D:/unity/DD/Unity_ASIA_LittleDinosaur_2021917/LittleDinosaur
 D:/unity/DD/Unity_ASIA_LittleDinosaur_2021917/LittleDinosaur
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 48.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 36.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002125 seconds.
+Registered in 0.002114 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 34.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 35.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.670 seconds
+- Completed reload, in  1.641 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1671ms)
-		BeginReloadAssembly (45ms)
+	ReloadAssembly (1642ms)
+		BeginReloadAssembly (51ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (349ms)
-			LoadAssemblies (44ms)
+		EndReloadAssembly (351ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (126ms)
+			SetupTypeCache (127ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (138ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (140ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (35ms)
+				RefreshPlugins (36ms)
 				BeforeProcessingInitializeOnLoad (14ms)
 				ProcessInitializeOnLoadAttributes (63ms)
 				ProcessInitializeOnLoadMethodAttributes (23ms)
@@ -75,52 +75,52 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001943 seconds.
+Registered in 0.002029 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 48.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 34.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.936 seconds
+- Completed reload, in  0.917 seconds
 Domain Reload Profiling:
-	ReloadAssembly (936ms)
-		BeginReloadAssembly (122ms)
+	ReloadAssembly (918ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (763ms)
-			LoadAssemblies (74ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (745ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (246ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (297ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (281ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (49ms)
+				RefreshPlugins (34ms)
 				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadAttributes (164ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2101 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.6 MB.
+System memory in use before: 93.5 MB.
 System memory in use after: 93.6 MB.
 
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2542.
-Total: 2.660500 ms (FindLiveObjects: 0.191800 ms CreateObjectMapping: 0.071900 ms MarkObjects: 2.338600 ms  DeleteObjects: 0.057500 ms)
+Total: 2.875700 ms (FindLiveObjects: 0.189100 ms CreateObjectMapping: 0.058100 ms MarkObjects: 2.570800 ms  DeleteObjects: 0.056800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,137 +134,41 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prototype Hero Demo - Pixel Art/Demo/RunStopDust.prefab
-  artifactKey: Guid(39afca3c109b26049a80bc07593eb271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prototype Hero Demo - Pixel Art/Demo/RunStopDust.prefab using Guid(39afca3c109b26049a80bc07593eb271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c4301822177733e152057ff69a3fce') in 0.131402 seconds 
-  Import took 0.134208 seconds .
+  path: Assets/動畫/哥布林_攻擊.anim
+  artifactKey: Guid(c77f674e0f4d61040aca19efca904914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/動畫/哥布林_攻擊.anim using Guid(c77f674e0f4d61040aca19efca904914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d01c9ca07ef19c02d33ed81a36439f7') in 0.038903 seconds 
+  Import took 0.041596 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Prototype Hero Demo - Pixel Art/Environment/EnvironmentTiles_1.asset
-  artifactKey: Guid(2df9905a1cc5ae64fb4dedb716f51bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prototype Hero Demo - Pixel Art/Environment/EnvironmentTiles_1.asset using Guid(2df9905a1cc5ae64fb4dedb716f51bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c7d83d83eb7480a710813e2776f317') in 0.019302 seconds 
-  Import took 0.021980 seconds .
+  Time since last request: 4.364442 seconds.
+  path: Assets/動畫/哥布林_死亡.anim
+  artifactKey: Guid(ca1d55f7df8ebef44afc8d2dca3dbf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/動畫/哥布林_死亡.anim using Guid(ca1d55f7df8ebef44afc8d2dca3dbf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b3e3fe457021294a6efe01f4201352') in 0.005885 seconds 
+  Import took 0.008745 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Prototype Hero Demo - Pixel Art/Environment/EnvironmentTiles_2.asset
-  artifactKey: Guid(8be7de5514576614f9116d9da2150b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prototype Hero Demo - Pixel Art/Environment/EnvironmentTiles_2.asset using Guid(8be7de5514576614f9116d9da2150b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ffbaf8571b203d63c60f1148d668d0') in 0.007854 seconds 
-  Import took 0.010846 seconds .
+  Time since last request: 241.460262 seconds.
+  path: Assets/場景/認識程式.unity
+  artifactKey: Guid(63c2a6683e8e24c46a15979c4db93731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景/認識程式.unity using Guid(63c2a6683e8e24c46a15979c4db93731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da37b3dad91a1c784e787a3edf3156ef') in 0.005779 seconds 
+  Import took 0.008813 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Prototype Hero Demo - Pixel Art/Audio/Footstep3.wav
-  artifactKey: Guid(9b0833c02b71a294faba6438278d937a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prototype Hero Demo - Pixel Art/Audio/Footstep3.wav using Guid(9b0833c02b71a294faba6438278d937a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17dfc06a632bc1ccb57ed38b877791e9') in 0.106012 seconds 
-  Import took 0.108703 seconds .
+  Time since last request: 8.194044 seconds.
+  path: Assets/場景/遊戲場景.unity
+  artifactKey: Guid(298636d96bc588449a95d0b9be1361a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景/遊戲場景.unity using Guid(298636d96bc588449a95d0b9be1361a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e01b67fe8756dda2ddb5e47d18fe7f3') in 0.006788 seconds 
+  Import took 0.010338 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Prototype Hero Demo - Pixel Art/Audio/Footstep1.wav
-  artifactKey: Guid(1a631ada4ecd9cf49a88b135aa70c396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prototype Hero Demo - Pixel Art/Audio/Footstep1.wav using Guid(1a631ada4ecd9cf49a88b135aa70c396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b96af3fdbb0246e3ab3ca0ebad5c60d') in 0.026832 seconds 
-  Import took 0.029438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Prototype Hero Demo - Pixel Art/Audio/Jump.wav
-  artifactKey: Guid(5a18f2ef7db9f1943bedda13ff85ee89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prototype Hero Demo - Pixel Art/Audio/Jump.wav using Guid(5a18f2ef7db9f1943bedda13ff85ee89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09e6442e45a2abacb2e85e9f9e3631f') in 0.014721 seconds 
-  Import took 0.017298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Prototype Hero Demo - Pixel Art/Environment/EnvironmentPalette_Prototype.prefab
-  artifactKey: Guid(ef06610bdafab1143b3e18004e4719b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prototype Hero Demo - Pixel Art/Environment/EnvironmentPalette_Prototype.prefab using Guid(ef06610bdafab1143b3e18004e4719b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e719b901453939687f733d94b86b062') in 0.010630 seconds 
-  Import took 0.013270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Prototype Hero Demo - Pixel Art/Audio/Footstep2.wav
-  artifactKey: Guid(ee00faf8b8432ff40a6e008c84d5ae59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prototype Hero Demo - Pixel Art/Audio/Footstep2.wav using Guid(ee00faf8b8432ff40a6e008c84d5ae59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a78469ed7199bb4f4d99081724b0be') in 0.014722 seconds 
-  Import took 0.017541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Prototype Hero Demo - Pixel Art/Demo/JumpDust.prefab
-  artifactKey: Guid(4a4123fbc8b39d441868897a71d2b2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prototype Hero Demo - Pixel Art/Demo/JumpDust.prefab using Guid(4a4123fbc8b39d441868897a71d2b2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8eaf8c8673af72c46049973d74003c6') in 0.055004 seconds 
-  Import took 0.057705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Prototype Hero Demo - Pixel Art/Audio/Landing.wav
-  artifactKey: Guid(5329b99920a6642409627b29d379aff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prototype Hero Demo - Pixel Art/Audio/Landing.wav using Guid(5329b99920a6642409627b29d379aff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe685fd139502d444fdab4ce184ba333') in 0.028907 seconds 
-  Import took 0.031755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Prototype Hero Demo - Pixel Art/Environment/EnvironmentTiles_3.asset
-  artifactKey: Guid(9af352b19c729fc478ec1f18e714585a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prototype Hero Demo - Pixel Art/Environment/EnvironmentTiles_3.asset using Guid(9af352b19c729fc478ec1f18e714585a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e300de54674699f852167ebdc81592') in 0.008815 seconds 
-  Import took 0.011826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Prototype Hero Demo - Pixel Art/Demo/PrototypeHero.prefab
-  artifactKey: Guid(e481822248898d04e9808a3d3ca78e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prototype Hero Demo - Pixel Art/Demo/PrototypeHero.prefab using Guid(e481822248898d04e9808a3d3ca78e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d89a9b50393fe1b1da8d9088c4437fb') in 0.115724 seconds 
-  Import took 0.118719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Prototype Hero Demo - Pixel Art/Demo/LandingDust.prefab
-  artifactKey: Guid(0b745be9abb3a6d4dadd8705950196d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prototype Hero Demo - Pixel Art/Demo/LandingDust.prefab using Guid(0b745be9abb3a6d4dadd8705950196d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efccb35bd9f2603f9aa29808f6b3cf34') in 0.030113 seconds 
-  Import took 0.032975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Prototype Hero Demo - Pixel Art/Environment/EnvironmentTiles_0.asset
-  artifactKey: Guid(b966ba8d7d465b6458e43bb42b6e0eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prototype Hero Demo - Pixel Art/Environment/EnvironmentTiles_0.asset using Guid(b966ba8d7d465b6458e43bb42b6e0eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d09f58126f3a108fd9141474e01f70') in 0.008483 seconds 
-  Import took 0.011662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.056282 seconds.
-  path: Assets/Monsters Creatures Fantasy/Sprites/Goblin
-  artifactKey: Guid(bf258c1ee77364e4b8527f51bae39f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Monsters Creatures Fantasy/Sprites/Goblin using Guid(bf258c1ee77364e4b8527f51bae39f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e731da9f50d76e24d7e73473a7ab365') in 0.006141 seconds 
-  Import took 0.009412 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.825627 seconds.
-  path: Assets/材質球/天空.mat
-  artifactKey: Guid(7b94c772119b8f54ebced7f6d5738475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/材質球/天空.mat using Guid(7b94c772119b8f54ebced7f6d5738475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61171c231f8ca288144974f5ab94c12') in 0.088923 seconds 
-  Import took 0.094695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.521703 seconds.
-  path: Assets/調色盤/地形.prefab
-  artifactKey: Guid(d8d18b6b646a7a9498c0ff9c7d69615b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調色盤/地形.prefab using Guid(d8d18b6b646a7a9498c0ff9c7d69615b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e835732bc5700003865c88d6a6d57b') in 0.032132 seconds 
-  Import took 0.036879 seconds .
+  Time since last request: 0.000361 seconds.
+  path: Assets/場景/遊戲場景.unity
+  artifactKey: Guid(298636d96bc588449a95d0b9be1361a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景/遊戲場景.unity using Guid(298636d96bc588449a95d0b9be1361a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e01b67fe8756dda2ddb5e47d18fe7f3') in 0.002069 seconds 
+  Import took 0.005455 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
